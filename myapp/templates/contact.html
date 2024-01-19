@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Contact</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css" />
+
+  <!-- Custom styles for this template -->
+  <link href="/static/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="/static/css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+
+
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <!--   icon link [bootstrap--navbarcode(copypastehere)]-->
+        <a class="navbar-brand" href="#">
+          <img src="/static/image/Gartoon-Team-Gartoon-Action-Flag-blue.32.png" alt="Bootstrap" width="30" height="24">
+        </a>
+
+        <!--   icon link -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/about">About</a>
+            </li>
+            <a class="nav-link active" aria-current="page" href="/notes">Notes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/contact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+  </div>
+  </div>
+  </header>
+  <!-- end header section -->
+  </div>
+
+
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Contact Us
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          
+          <form method="post">
+            {% csrf_token %}
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Name</label>
+              <div class="col-sm-10">
+                <input type="text" name="name" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Phone Number</label>
+              <div class="col-sm-10">
+                <input type="number" name="phoneno" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" name="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            
+            <div class="row mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" name="msg" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            
+            
+            
+            <button type="submit" class="btn btn-primary">SUBMIT</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="map_container">
+            <div class="map">
+            <!-- MAP start -->
+              <iframe width="562" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?width=562&amp;height=400&amp;hl=en&amp;q=PRASHIL%20PARK%20rajkot+(PRASHIL%20PARK)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+              <a href='https://www.krankenversicherungsvergleich.at/'></a>
+              <script type='text/javascript'
+                src='https://embedmaps.com/google-maps-authorization/script.js?id=c5807b8c11f44e2749d5df18476a141f393a6836'></script>
+            <!-- MAP end -->
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+
+  <!-- info section -->
+  <section class="info_section ">
+    <div class="container">
+      <h4>
+        Get In Touch
+      </h4>
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="info_items">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="">
+                  <div class="item ">
+                    <div class="img-box ">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      Lorem Ipsum is simply dummy text
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="">
+                  <div class="item ">
+                    <div class="img-box ">
+                      <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      +02 1234567890
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="">
+                  <div class="item ">
+                    <div class="img-box">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      demo@gmail.com
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="social-box">
+      <h4>
+        Follow Us
+      </h4>
+      <div class="box">
+        <a href="">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayDateYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script src="/static/js/jquery-3.4.1.min.js"></script>
+  <script src="/static/js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="/static/js/custom.js"></script>
+  <!-- Google Map -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+
+<!-- whatsapp code start -->
+<script>
+  var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?47877';
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = url;
+  var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#00e785",
+      "ctaText":"Chat with us",
+      "borderRadius":"25",
+      "marginLeft": "0",
+      "marginRight": "20",
+      "marginBottom": "20",
+      "ctaIconWATI":false,
+      "position":"right"
+  },
+  "brandSetting":{
+      "brandName":"Wati",
+      "brandSubTitle":"undefined",
+      "brandImg":"https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg",
+      "welcomeText":"Hi there!\nHow can I help you?",
+      "messageText":"Hello, %0A I have a question about {{page_link}}",
+      "backgroundColor":"#00e785",
+      "ctaText":"Chat with us",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"918758110916"
+  }
+  };
+  s.onload = function() {
+      CreateWhatsappChatWidget(options);
+  };
+  var x = document.getElementsByTagName('script')[0];
+  x.parentNode.insertBefore(s, x);
+</script>
+<!-- whatsapp code end -->
+
+</body>
+
+</html>
